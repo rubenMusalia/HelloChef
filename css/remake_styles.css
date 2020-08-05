@@ -1,0 +1,104 @@
+/* .container {
+ margin: 10px;
+} */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.divOne {
+    border: 2px solid rgb(30, 30, 30);
+    background-image: url("../images/hellochef.jpg");
+    background-size: cover;
+    overflow: hidden;
+    /* text-align: center; */
+    height: 100vh;
+    margin-bottom: 80px;
+    z-index: 90;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+
+}
+
+.logo {
+    margin-right: auto;
+    width: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    fill: white;
+}
+
+.navBar {
+    /* border: 2px solid rgb(30, 30, 30); */
+    width: 55%;
+    margin-left: auto;
+    margin: 0;
+    padding-top: 5px;
+}
+
+ul{
+    margin: 0;
+    /* padding: 0; */
+    text-align: right;
+    margin-right: 10px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+    font-size: 1.30vw;
+    font-weight: 300;
+    line-height: 1.33333vw;
+}
+
+.navLinkTwo {
+    margin-right: auto;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.navBarLink {
+    padding-left: 25px;
+    padding-top: 2px;
+    display: inline-flex;
+    /* border: 2px solid rgb(30, 30, 30); */
+    margin: auto;  
+}
+
+.divTwo {
+    
+    border: 2px solid rgb(30, 30, 30);
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.divThree {
+    border: 2px solid rgb(30, 30, 30);
+    background-image: url("../images/veggiebox.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.divFour {
+    border: 2px solid rgb(30, 30, 30);
+    height: 100vh;
+    margin-bottom: 80px;
+}
+
+.divFive {
+    border: 2px solid rgb(30, 30, 30);
+    background-image: url("../images/lamb.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
