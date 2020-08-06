@@ -12,16 +12,15 @@ body {
     background-image: url("../images/hellochef.jpg");
     background-size: cover;
     overflow: hidden;
-    /* text-align: center; */
     height: 100vh;
     margin-bottom: 80px;
     z-index: 90;
+    padding-bottom: 8.5vw;
 }
 
 .header {
     display: flex;
     height: 80px;
-
 }
 
 .logo {
@@ -71,6 +70,31 @@ ul{
     /* border: 2px solid rgb(30, 30, 30); */
     margin: auto;  
 }
+
+.divOneText {
+    border: 2px solid rgb(30, 30, 30);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+p {
+    font-size: 5.33333vw;
+    line-height: 6.66667vw;
+    font-weight: 700;
+    margin: 0;
+}
+h2 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2vw;
+    line-height: 2.33333vw;
+}
+/* ................................END OF {divOne} ELEMENTS............................................. */
+
 
 .divTwo {
     
