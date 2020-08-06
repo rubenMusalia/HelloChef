@@ -12,7 +12,6 @@ body {
     background-image: url("../images/hellochef.jpg");
     background-size: cover;
     overflow: hidden;
-    height: 100vh;
     margin-bottom: 80px;
     z-index: 90;
     padding-bottom: 8.5vw;
@@ -72,7 +71,7 @@ ul{
 }
 
 .divOneText {
-    border: 2px solid rgb(30, 30, 30);
+    /* border: 2px solid rgb(30, 30, 30); */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -93,24 +92,124 @@ h2 {
     font-size: 2vw;
     line-height: 2.33333vw;
 }
+
+.getStartedLink {
+    margin-top: 40px;
+    /* border: 2px solid rgb(30, 30, 30); */
+    padding: 18px 35px 18px 35px;
+    line-height: 120px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.divOneTExtDesc {
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
 /* ................................END OF {divOne} ELEMENTS............................................. */
 
 
 .divTwo {
-    
-    border: 2px solid rgb(30, 30, 30);
-    height: 100vh;
+    /* border: 2px solid rgb(30, 30, 30); */
+    /* height: 100vh; */
     margin-bottom: 80px;
+    text-align: center;
 }
+h1{
+    font-size: 50px;
+}
+
+.triBoxes {
+    display: flex;
+    margin: 20px;
+}
+
+.boxStyle {
+    border: 2px solid rgb(30, 30, 30);
+    width: 33%;
+    margin: 0;
+    margin: 20px;
+    padding: 20px;
+}
+
+.triImages {
+    height: 80px;
+    width: 80px;
+    color: red;
+}
+
+
+.triBoxesDesc {
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+}
+
+.recipeLink {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+/* ................................END OF {divTwo} ELEMENTS............................................. */
+
 
 .divThree {
     border: 2px solid rgb(30, 30, 30);
     background-image: url("../images/veggiebox.jpg");
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     overflow: hidden;
     margin-bottom: 80px;
 }
+
+.veggieBoxContent {
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    border: 2px solid rgb(30, 30, 30);
+    width: 40%;
+    margin: 20px;
+}
+
+.veggieBoxes {
+    border: 2px solid rgb(30, 30, 30);
+    margin: 15px;
+    padding: 15px;
+}
+
+.veggieSvg {
+    height: 35px;
+    width: 35px;
+}
+
+.veggieBoxHeader {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.veggieBoxMiniHeader {
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.veggieDesc {
+    color: white;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+/* ................................END OF {divThree} ELEMENTS............................................. */
 
 .divFour {
     border: 2px solid rgb(30, 30, 30);
